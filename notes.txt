@@ -1,0 +1,4 @@
+npm i @capacitor/splash-screen
+npm i @capacitor-community/sqlite
+
+ionic cap build android 
