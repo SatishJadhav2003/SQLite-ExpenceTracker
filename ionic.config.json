@@ -1,0 +1,7 @@
+{
+  "name": "SQLite-ExpenceTracker",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
