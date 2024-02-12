@@ -1,0 +1,29 @@
+<ion-content padding>
+  <ion-grid>
+    <ion-row>
+      <ion-col size-md="6" offset-md="3" size-lg="4" offset-lg="4" size-xs="12">
+        <ion-grid>
+          <!-- Adjust column sizes based on screen size -->
+          <ion-input
+            label="User Name"
+            label-placement="floating"
+            fill="outline"
+            placeholder="user123"
+            [(ngModel)]="username"
+          ></ion-input>
+        </ion-grid>
+        <ion-grid>
+          <ion-input
+            label="Password"
+            label-placement="floating"
+            fill="outline"
+            placeholder="password123"
+            [(ngModel)]="password"
+          ></ion-input>
+        </ion-grid>
+        <ion-button expand="full" (click)="login()">Login</ion-button>
+        <p class="ion-no-padding" >Don't have an account <a routerLink="/signup">Open here.</a> It's Free !</p>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

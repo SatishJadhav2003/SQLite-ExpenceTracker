@@ -1,0 +1,18 @@
+ion-item {
+    margin-bottom: 15px;
+  }
+  
+  @media (max-width: 600px) {
+    /* Styles for small mobile devices */
+    ion-col {
+      padding: 0 15px;
+    }
+  }
+  
+  @media (min-width: 601px) and (max-width: 960px) {
+    /* Styles for tablets */
+    ion-col {
+      padding: 0 30px;
+    }
+  }
+  
